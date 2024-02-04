@@ -1,0 +1,13 @@
+
+Dialogue
+"speaker/name" : "dialogue"
+
+Narration
+#You see a little girl walking down the road.
+
+Go to line
+> <line>
+e.g. '> 26' goes to line 26
+
+Choices
+* "text" > <result>

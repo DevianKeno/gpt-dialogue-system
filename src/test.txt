@@ -1,0 +1,66 @@
+
+#You see a little girl walking down the road.
+#She seems to be carrying a basket with considerable weight.
+#She walks up to you and greets you by waving her hand.
+
+// chapter - meetup and names
+"Little Girl" : "Hello!"
+
+* "Who are you?" > 13
+* "What are you doing here?" > 42
+
+// "Who are you?"
+    "User" : "Uh, who are you?"
+    "Rouge" : "My name is Rouge! How about you, what's your name?"
+
+    * "Don't tell" > 19
+    * "I have no name." > 36
+
+    "User" : "You don't need to know my name."
+    "Rouge" : "Umm, okay I guess..."
+
+    * "What are you doing here?" > 24
+
+    "User" : "What are you doing here?"
+    "Little Girl" : "Umm... my mother always told me not to talk to strangers."
+
+    * "You're talking to me now" > 30
+    * "Tell name" > 36
+
+    "User": "But you're talking to me right now."
+    "Little Girl" : "Consider it as a little gesture of mine so you don't feel alone!"
+    "User" : "..."
+
+    * "Tell name." > 36
+    
+    "User" : "I don't really have a name."
+    "User" : "I guess you can just call me User."
+    "Rouge" : "Hmmm... that's a weird name, but I guess it's fine!"
+    > 61
+
+// "What are you doing here?"
+    "User" : "What are you doing here?"
+    "Little Girl" : "Umm... my mother always told me not to talk to strangers."
+
+    * "You're talking to me now." > 48
+    * "Ask name." > 54
+
+    "User": "But you're talking to me right now."
+    "Little Girl" : "Consider it as a little gesture of mine so you don't feel alone!"
+    "User" : "..."
+
+    * "Ask name." > 54
+
+    "User" : "So, who are you then?"
+    "Rouge" : "I'm Rouge! How about you?"
+
+"User" : "I don't really have a name."
+"User" : "I guess you can just call me User."
+"Rouge" : "Hmmm... that's a weird name, but I guess it's fine!"
+
+* "What are you doing here?" > 63
+
+"User" : "What are you up to?"
+"Rouge" : "I'm on my way to my grandmother's house."
+"Rouge" : "You see, she is quite ill so I have to take these to her so that she can feel better."
+// to be continued
